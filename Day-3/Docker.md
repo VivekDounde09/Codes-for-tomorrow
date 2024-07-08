@@ -30,19 +30,18 @@ Files and folders present in a container's base image include:
 ## Question 6: How to install Docker in Ubuntu?
 
 1. Add Docker's official GPG key:
-
-   # Update your machine
-   ```
-   sudo apt-get update
-   ```
-   # to install a root CA certificate in the trust store
-   ```
-   sudo apt-get install ca-certificates curl
-   ```
-   #Creating directory with appropriate permissions, using super-user privileges.
-   ```
-   sudo install -m 0755 -d /etc/apt/keyrings
-   ```
+# Update your machine
+```
+sudo apt-get update
+```
+# to install a root CA certificate in the trust store
+```
+sudo apt-get install ca-certificates curl
+ ```
+#Creating directory with appropriate permissions, using super-user privileges.
+```
+sudo install -m 0755 -d /etc/apt/keyrings
+```
 #Download the file from docker.com to docker.asc file in keyrings folder
 ```
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
