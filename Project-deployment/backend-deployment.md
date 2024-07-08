@@ -28,7 +28,10 @@ sudo apt-get update
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
-
+###Test docker is running or not
+```
+sudo docker run hello-world
+```
 ##Clone repositries to container
 ```
 git clone <URL of the Repo>
