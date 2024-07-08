@@ -31,5 +31,19 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 ##Clone repositries to container
 ```
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+git clone <URL of the Repo>
 ```
+
+Server config in:
+```
+cd /etc/nginix/ sites-available
+```
+```
+sudo nano <telegram-bot>
+```
+config ip-port and url in <telegram-bot>
+```
+cd /etc/nginix/ sites-enabled
+sudo nano ln -s ../sites-available/api.telegram-bot.com ./
+```
+install mvn to change the -version of nodejs
