@@ -30,11 +30,11 @@ Files and folders present in a container's base image include:
 ## Question 6: How to install Docker in Ubuntu?
 
 1. Add Docker's official GPG key:
-# Update your machine
+#Update your machine
 ```
 sudo apt-get update
 ```
-# to install a root CA certificate in the trust store
+#to install a root CA certificate in the trust store
 ```
 sudo apt-get install ca-certificates curl
  ```
