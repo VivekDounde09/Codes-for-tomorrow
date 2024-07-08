@@ -49,4 +49,15 @@ config ip-port and url in <telegram-bot>
 cd /etc/nginix/ sites-enabled
 sudo nano ln -s ../sites-available/api.telegram-bot.com ./
 ```
-install mvn to change the -version of nodejs
+Review the script and make sure you are comfortable with the changes it is making
+```
+curl -o- <URL for the installing>
+```
+Installing Node Using the Node Version Manager  (for pipelining use | bash)
+```
+curl -o- <URL for the installing> | bash 
+```
+Install the nvm script to your user account
+```
+source ~/.bashrc
+```
